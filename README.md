@@ -9,7 +9,6 @@
 
    ```
    brew install neovim (on MacOS)
-
    ```
 
 2. Create config folder:
