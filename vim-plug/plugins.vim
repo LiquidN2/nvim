@@ -20,6 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " TSX support
     Plug 'HerringtonDarkholme/yats.vim'
     
+    " Emmet
+    Plug 'mattn/emmet-vim'
+    
     " File Explorer
     Plug 'scrooloose/NERDTree'
     
@@ -36,5 +39,26 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
+    " Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+    
+    " Rainbow Parentheses
+    Plug 'junegunn/rainbow_parentheses.vim'
+    
+    " Vim Commentary
+    Plug 'tpope/vim-commentary'
+    
+    " Which Key
+    Plug 'liuchengxu/vim-which-key'
+    
+    " Git Integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 
 call plug#end()

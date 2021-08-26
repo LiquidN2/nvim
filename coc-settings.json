@@ -1,16 +1,40 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [ "css", "markdown", "javascript", "javascriptreact", "html", "json", "python" ],
+  // Prettier Autoformat
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "html",
+    "json",
+    "python"
+  ],
 
-  // python config
+  // Emoji
+  "coc.source.emoji.filetypes": [
+    "css",
+    "scss",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "html",
+    "json",
+    "python"
+  ],
+
+  // Python
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
 
+  // Snippet
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
 
-  // explorer
+  // Explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
+  "explorer.file.showHiddenFiles": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
