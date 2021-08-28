@@ -81,4 +81,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " FLoaterm
     Plug 'voldikss/vim-floaterm'
 
+    " Project Management with Starify
+    Plug 'mhinz/vim-startify'
+
 call plug#end()
