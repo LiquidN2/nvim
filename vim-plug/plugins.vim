@@ -12,16 +12,28 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     
     " JS syntax support
-    Plug 'yuezk/vim-js'
-    
+    Plug 'pangloss/vim-javascript' 
+
     " JSX support
     Plug 'maxmellon/vim-jsx-pretty'
-    
+   
+    " TS support
+    Plug 'leafgarland/typescript-vim'
+
     " TSX support
-    Plug 'HerringtonDarkholme/yats.vim'
+    Plug 'peitalin/vim-jsx-typescript'
     
+    " GraphQL
+    Plug 'jparise/vim-graphql'
+
+    " Styled Component
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
     " Emmet
     Plug 'mattn/emmet-vim'
+
+    " Snippets
+    Plug 'honza/vim-snippets'
     
     " File Explorer
     Plug 'scrooloose/NERDTree'
@@ -31,8 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     " Themes
     Plug 'joshdick/onedark.vim'
-    Plug 'sonph/onehalf', { 'rtp': 'vim' }
-
+    Plug 'mhartington/oceanic-next'
+    
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
@@ -54,11 +66,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     " Which Key
     Plug 'liuchengxu/vim-which-key'
-    
+
     " Git Integration
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    
+    " FZF & vim-rooter
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+
+    " FLoaterm
+    Plug 'voldikss/vim-floaterm'
 
 call plug#end()

@@ -6,6 +6,8 @@
     "markdown",
     "javascript",
     "javascriptreact",
+    "typescript",
+    "typescriptreact",
     "html",
     "json",
     "python"
@@ -18,6 +20,8 @@
     "markdown",
     "javascript",
     "javascriptreact",
+    "typescript",
+    "typescriptreact",
     "html",
     "json",
     "python"
@@ -29,6 +33,12 @@
 
   // Snippet
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"],
+    "typescriptreact": ["javascript"]
+  },
 
   // Explorer
   "explorer.width": 30,

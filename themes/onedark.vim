@@ -14,7 +14,7 @@ let g:onedark_termcolors=256
 
 syntax on
 colorscheme onedark
-
+let g:airline_theme = 'onedark'
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))
